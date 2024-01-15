@@ -1,0 +1,240 @@
+
+*{
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  padding: 20px;
+  border: 1px solid;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  display: inline-block;
+  text-align: center;
+}
+
+.card .me{
+  max-width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.button{
+  background-color: aqua;
+  padding: 10px 15px;
+  border: none;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.study{
+  border: 1px solid rgba(0, 0, 0, 0.753);
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.study p{
+  margin: 0;
+}
+
+.welcome{
+  background-color: rgb(19, 185, 19);
+  width: 250px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+  transition: 1s ease-in-out;
+}
+.erro{
+  background-color: rgb(185, 38, 19);
+  width: 250px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+  transition: 1s ease-in-out;
+}
+
+.category{
+  background-color: aqua;
+  width: auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.list-items{
+  text-align: center;
+  list-style: none;
+}
+
+.list-items li{
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.list-items li:hover{
+
+  color: rgba(0, 0, 0, 0.616);
+}
+
+img{
+  max-width: 200px;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.count-dom{
+  font-size: 10em;
+  margin-top: 0;
+}
+
+.counter-container button{
+  width: 150px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: orangered;
+  cursor: pointer;
+  color: whitesmoke;
+  border: 5px;
+  border: none;
+}
+
+.counter-container button:hover{
+  background-color: rgba(255, 68, 0, 0.863);
+}
+
+.color-picker-container{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.color-picker-container h1{
+  font-size: 2.5rem;
+}
+
+.color-picker-container .color-picker{
+  width: 400px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: 5px solid hsla(0, 1%, 72%, 0.877);
+  border-radius: 10px;
+  color: hsl(0, 1%, 20%);
+}
+
+input[type="color"]{
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0;
+  border: none;
+}
+
+.lis{
+  cursor: pointer;
+}
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  background-color: #201e2f;
+  text-align: center;
+}
+
+.to-do-list h1{
+  font-size: 4rem;
+  color: white;
+}
+
+.to-do-list button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.to-do-list .add-button{
+  background-color: hsl(160, 100%, 75%);
+}
+
+.to-do-list .add-button:hover{
+  background-color: hsl(160, 100%, 55%);
+}
+
+
+.to-do-list .delete-btn{
+  background-color: hsl(0, 65%, 46%);
+}
+
+.to-do-list .delete-btn:hover{
+  background-color: hsl(0, 65%, 36%);
+}
+
+
+.to-do-list .move-btn{
+  background-color: hsl(160, 100%, 75%);
+}
+.to-do-list .move-btn:hover{
+  background-color: hsl(160, 100%, 55%);
+}
+
+.to-do-list input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 1px rgb(27, 27, 27);
+  border-radius: 5px;
+  color: grey;
+}
+
+.to-do-list ol{
+  list-style: none;
+}
+
+.to-do-list li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #2a283dbb;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.to-do-list .text{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.delete-btnon, .move-btn{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
